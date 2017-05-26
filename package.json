@@ -1,0 +1,14 @@
+{
+    "devDependencies": {
+        "neutrino": "^5.8.0",
+        "neutrino-preset-karma": "^5.8.0"
+    },
+    "name": "neutrino-preset-karma",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "test": "neutrino test --watch --use neutrino-preset-karma"
+    },
+    "dependencies": {}
+}
